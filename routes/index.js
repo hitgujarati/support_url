@@ -41,7 +41,7 @@ router.post('/send/mail', function (req, res, next) {
     var mailOptions = {
       from: process.env.SMTP_MAIL,
       to: 'gujaratiyutik@gmail.com', //recive email
-      subject: 'CAR MOD MELON',
+      subject: 'WEAPON MOD FOR GMOD',
       text: `${message} \n\nEmail of User Who Sent The Message: ${email} \n\nMobile Number of User Who Sent The Message: ${phone}`
     };
 
